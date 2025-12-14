@@ -322,6 +322,37 @@ body.dark .skills li {
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
+.project-card {
+  background: rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 22px;
+  width: 300px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.18);
+}
+
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn.small {
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 
 
 
