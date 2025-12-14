@@ -41,7 +41,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding-top: 120px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 button {
@@ -195,7 +197,13 @@ button:hover {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-top: 80px;
   }
+}
+
+
 
 
 
