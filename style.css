@@ -1,3 +1,15 @@
+/* Light Theme */
+body.light {
+  background-color: #f8fafc;
+  color: #020617;
+}
+
+body.light .project-card,
+body.light .skill {
+  background-color: #e5e7eb;
+  color: #020617;
+}
+
 /* Page Load Animation */
 body {
   animation: fadeIn 1.2s ease-in;
@@ -171,7 +183,21 @@ button:hover {
   transform: translateY(-15px) scale(1.05);
   box-shadow: 0 15px 30px rgba(99,102,241,0.4);
 }
+  .theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
   }
+
 
 
 
