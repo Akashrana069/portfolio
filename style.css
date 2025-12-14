@@ -1,14 +1,14 @@
 /* Light Theme */
+body {
+  background-color: #020617;
+  color: #ffffff;
+}
+
 body.light {
   background-color: #f8fafc;
   color: #020617;
 }
 
-body.light .project-card,
-body.light .skill {
-  background-color: #e5e7eb;
-  color: #020617;
-}
 
 /* Page Load Animation */
 body {
@@ -197,6 +197,7 @@ button:hover {
 }
 
   }
+
 
 
 
