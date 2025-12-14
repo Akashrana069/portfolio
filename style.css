@@ -43,14 +43,14 @@ body {
 
 /* Hero Section */
 .container {
-  min-height: 100vh;          /* ❗ height nahi */
+  min-height: calc (100vh -70px);         /* ❗ height nahi */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 80px 20px;
-  paddint-top:90px;
+  paddint-top:70px;
 }
 
 .container h1 {
@@ -235,23 +235,22 @@ body.dark .skills li {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 40px;
+  height: 70px;   /* 👈 IMPORTANT */
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
-  z-index: 1000;
-  
- background: linear-gradient(
+  justify-content: space-between;
+  padding: 0 40px;
+
+  background: linear-gradient(
     to right,
     rgba(10, 40, 120, 0.95),
     rgba(30, 90, 200, 0.95)
   );
 
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
   z-index: 1000;
 }
+
 
 .logo {
   color: #fff;
@@ -272,6 +271,7 @@ body.dark .skills li {
 .navbar .btn:hover {
   background: rgba(255, 255, 255, 0.25);
 }
+
 
 
 
