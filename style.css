@@ -284,9 +284,9 @@ body.dark .skills li {
   justify-content: center;   /* 👈 CENTER FIX */
   align-items: stretch;
   gap: 25px;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;            /* 👈 CENTER FIX */
-  flex-wrap: wrap;           /* mobile ke liye */
+  flex-wrap: nowrap;           /* mobile ke liye */
 }
 
 .project-card {
@@ -297,7 +297,8 @@ body.dark .skills li {
   text-align: center;
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
-  width: 300px;
+  width: 300px;  
+  min-height:180px;
 }
 
 .project-card h3 {
@@ -321,6 +322,7 @@ body.dark .skills li {
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
+
 
 
 
